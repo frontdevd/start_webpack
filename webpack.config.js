@@ -11,7 +11,7 @@ module.exports = {
     devServer: {
         port: 3000
     },
-    plugins: [
+    plugins: [ 
         new HTMLPlugin({
             template: './src/index.html'
         }),
